@@ -1,0 +1,58 @@
+/* Custom Slick Slider Button Styles */
+.slick-prev, .slick-next {
+    @apply absolute top-1/2 -translate-y-1/2 p-3 rounded-full;
+    width: 50px; /* Increased size for better visibility */
+    height: 50px;
+    font-size: 0; /* Hide default text */
+    line-height: 0;
+    z-index: 10;
+    background-color: #ffffff; /* Button background color */
+    border: 2px solid #000000; /* Dark border for better visibility */
+    border-radius: 50%; /* Circular shape */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    content: ''; /* Remove default text */
+    display: block;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+  }
+  
+  .slick-prev {
+    left: 10px;
+    background-color: #ffffff; /* Button background color */
+    border-color: #000000; /* Border color */
+    color: #000000; /* Icon color */
+  }
+  
+  .slick-next {
+    right: 10px;
+    background-color: #ffffff; /* Button background color */
+    border-color: #000000; /* Border color */
+    color: #000000; /* Icon color */
+  }
+  
+  .slick-prev:before {
+    content: '‹'; /* Custom left arrow */
+    color: #000000; /* Icon color */
+  }
+  
+  .slick-next:before {
+    content: '›'; /* Custom right arrow */
+    color: #000000; /* Icon color */
+  }
+  
+  /* Hover effect for buttons */
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    color: #333333; /* Darker icon color on hover */
+    border-color: #333333; /* Darker border on hover */
+  }
+  
