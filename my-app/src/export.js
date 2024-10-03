@@ -79,7 +79,7 @@ export const planning = [
     icon: MdOutlineDesignServices,
     title: "Design",
     about:
-      "Our design phase focuses on creating user-friendly and aesthetically pleasing interfaces. We prioritize usability and functionality while crafting a visually appealing design that reflects your brand identity.",
+      "Our design phase focuses on creating user-friendly and aesthetically pleasing interfaces. We prioritize usability and functionality while crafting a visually appealing design that reflects your identity.",
   },
   {
     icon: FaRegBuilding,
